@@ -1,0 +1,104 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*end reset*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-width: 690px;
+}
+
+input[type=checkbox] {
+	/* All browsers except webkit*/
+	transform: scale(1.5);
+	/* Webkit browsers*/
+	-webkit-transform: scale(1.5);
+}
+
+.input-label {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+/*JqGrid*/
+.jqgrid-header {
+	color: white;
+	padding: 5px;
+	border-radius: 5px 5px 0 0;
+	border-left-style: solid;
+	border-right-style: solid;
+	text-transform: uppercase;
+	font-size: 15px;
+	border-width: 1px;
+	border-color: #dddddd;
+	border-width: 1px
+}
+
+.jqgrid-filter {
+	border: thick;
+	background: #D1E9F9;
+	padding: 5px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	padding: 5px;
+}
+
+.header-edit {
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+
+.header-edit:hover {
+	border: 2px;
+	border-color: white background-color: transparent;
+	color: white;
+}
+
+.header-edit {
+	border: none;
+	background-color: transparent;
+	color: white;
+}
+
+.header-edit:hover {
+	border: 2px;
+	border-color: white background-color: transparent;
+	color: white;
+}
+
+.col {
+	padding-bottom: 5px;
+}
+
+.myAltRowClass {
+	background: #F9F9F9;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl,
+	.ui-corner-right, .ui-corner-tr, .ui-corner-bottom, .ui-corner-bl,
+	.ui-corner-br {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+}

@@ -1,0 +1,9 @@
+MSG_DEVICEOPLOGS = function() {
+
+	//CLIENT ERROR MESSAGES
+
+
+	//SERVER ERROR MESSAGES
+
+
+};

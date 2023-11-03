@@ -1,0 +1,19 @@
+.context-menu {
+    border-bottom-style:solid;
+    border-color:#bebebe;
+    border-width:1px;
+}
+.context-menu-lbl {
+    padding-bottom:5px;
+    vertical-align:middle;
+}
+
+.context-menu-icon{
+    padding:2px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.context-menu-lbl-txt {
+    font-size:110%;
+    font-family:Verdana;
+}

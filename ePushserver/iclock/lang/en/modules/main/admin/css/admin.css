@@ -1,0 +1,103 @@
+body {
+	/* Location of the image */
+	background-image: url("../img/admin-main.jpg");
+	/* Image is centered vertically and horizontally at all times */
+	background-position: center center;
+	/* Image doesn't repeat */
+	background-repeat: no-repeat;
+	/* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+	background-attachment: fixed;
+	/* This is what makes the background image rescale based on its container's size */
+	background-size: cover;
+	/* Pick a solid background color that will be displayed while the background image is loading */
+	background-color: #464646;
+	width: 100%;
+
+
+	/* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+.admin-form {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	height: 400px; /* adjust as per your needs */
+	margin-left: -200px; /* negative half of width above */
+	margin-top: -200px;
+}
+
+@media screen and (orientation: portrait) {
+	@media only screen and (max-width: 767px) {
+		body {
+			/* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+			background-image: url("../img/admin-potrait.jpg");
+			background-position: center top;
+		}
+		.admin-form {
+			margin-top: -90px;
+			margin-left: -200px;
+			height: 200px;
+		}
+	}
+}
+
+@media screen and (orientation: landscape) {
+	@media only screen and (max-height: 440px) {
+		body {
+			/* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+			background-image: url("../img/admin-landscape.jpg");
+			background-position: center top;
+		}
+		.admin-form {
+			margin-top: -90px;
+			margin-left: -100px;
+			height: 200px;
+		}
+	}
+}
+
+.form-control {
+	outline: none;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em 0;
+	font-weight: 500;
+}
+
+input[type="submit"] {
+	background-color: #28C2FF;
+	color: white;
+	border: none;
+	font-weight: 700;
+}
+
+.submit {
+	margin: 1em 0;
+}
+
+
+input[type="submit"]:hover {
+	color: #1976D2;
+	background: #fff;
+}
+
+input[type="submit"]:focus {
+	color: #fff;
+	background: #1976D2;
+}
+
+input[type="submit"]:ACTIVE {
+	color: #1976D2;
+	background: #fff;
+}
+
+.admin-header{
+color:white;
+font-size:20px;
+font-weight:700;"
+}

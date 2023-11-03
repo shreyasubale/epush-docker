@@ -1,0 +1,9 @@
+.ui-datepicker table
+{
+    display: none;
+}
+
+.ui-datepicker-calendar
+{
+    display: none;
+}
