@@ -1,0 +1,1 @@
+USER PIN=5	Name=	Pri=0	Passwd=	Card=	Grp=1	TZ=0000000100000000	Expires=0	StartDatetime=0	EndDatetime=0	ValidCount=0

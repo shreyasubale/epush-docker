@@ -11,16 +11,17 @@ services:
   #    - "3306:3306"
     volumes:
      - ./db:/docker-entrypoint-initdb.d
+     - ./mysql/my.cnf:/etc/my.cnf
 
   web:
-    image: tomcat:8-jdk8
+    image: tomcat:7.0.105-jdk8-openjdk
     # Environment variables do not appear to be getting loaded the first time Tomcat starts!
     environment:
       JDBC_URL: jdbc:mysql://db:3306/epushserver?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
       JDBC_USER: epush1
       JDBC_PASS: epush1
     ports:
-     - "8888:8080"
+     - "0.0.0.0:8888:8080"
     volumes:
      - ./ePushserver/iclock:/usr/local/tomcat/webapps/iclock
     links:

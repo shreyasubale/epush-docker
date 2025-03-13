@@ -1,0 +1,3 @@
+USER PIN=1	Name=	Pri=0	Passwd=	Card=	Grp=1	TZ=0000000100000000	Expires=0	StartDatetime=0	EndDatetime=0	ValidCount=0
+USER PIN=2	Name=	Pri=0	Passwd=	Card=	Grp=1	TZ=0000000100000000	Expires=0	StartDatetime=0	EndDatetime=0	ValidCount=0
+USER PIN=4x	Name=	Pri=0	Passwd=	Card=	Grp=1	TZ=0000000100000000	Expires=0	StartDatetime=0	EndDatetime=0	ValidCount=0
